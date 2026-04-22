@@ -393,6 +393,33 @@ audio {
   color: #1a1a1a;
 }
 
+/* Colleagues List */
+.colleagues-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.colleague-link {
+  display: block;
+  color: #4a9eff;
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid #4a9eff;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.colleague-link:hover {
+  background: #4a9eff;
+  color: #1a1a1a;
+}
+
 /* Homepage Cards */
 .person {
   background: #262626;
