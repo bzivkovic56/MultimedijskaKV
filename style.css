@@ -120,7 +120,7 @@ main {
   padding: 2rem;
 }
 
-main > .selection {
+main>.selection {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
@@ -487,4 +487,24 @@ footer a:hover {
 
 .footer-logo:hover {
   opacity: 0.8;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #333;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
 }
